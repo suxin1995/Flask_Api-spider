@@ -23,7 +23,9 @@
 
 1.登录
 
-提供测试账号   username:c6552326a848ac876cd43b5da0440d13bd7d58e8   password:95df21c0c556bfcde96b61775588377f
+- 提供测试账号   
+  - username: **c6552326a848ac876cd43b5da0440d13bd7d58e8**
+  - password: **95df21c0c556bfcde96b61775588377f**
 >     http://www.suxin.online:7777/su/v1/login   
 ```
 post 方法    获取认证token
@@ -35,9 +37,9 @@ data:
 ```
 
 2.知乎
->     http://www.suxin.online:7777/su/v1/login   
+>     http://www.suxin.online:7777/su/v1/login   post 方法 
 ```
-post 方法   附带认证token信息
+**headers附带认证token信息**
 
 知乎搜索页根据关键词返回 相关问题信息  
 data:
